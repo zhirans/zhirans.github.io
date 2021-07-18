@@ -33,6 +33,7 @@ class App extends Component {
     console.log(main);
     return (
       <div className="App">
+        test
         <Header data={main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
